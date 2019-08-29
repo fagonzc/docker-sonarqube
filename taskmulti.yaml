@@ -5,4 +5,4 @@ steps:
   disableWorkingDirectoryOverride: true
 # Push image
 - push:
-  - {{.Run.Registry}}/appimages/sonarqube:{{.Run.ID}}
+  - {{.Run.Registry}}/sonarqube:{{.Run.ID}}
