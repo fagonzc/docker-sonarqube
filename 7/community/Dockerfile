@@ -1,6 +1,6 @@
 ARG REGISTRY_NAME
 FROM ${REGISTRY_NAME}/baseimages/openjdk:11-jre-slim
-https://github.com/docker-library/openjdk
+
 
 RUN apt-get update \
     && apt-get install -y curl gnupg2 unzip \
